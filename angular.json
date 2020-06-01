@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "charalagou"
+    }
+  },
+  "defaultProject": "charalagou",
+  "cli": {
+    "analytics": "880ee6f1-b05b-42f3-a371-8fc74e31178f"
+  }
 }

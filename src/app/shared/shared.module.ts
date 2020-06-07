@@ -1,17 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { RouterModule, Router } from '@angular/router';
 
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [HeaderComponent, FooterComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule,
   ],
-  exports: [
-    HeaderComponent,
-    FooterComponent
-  ]
+  exports: [HeaderComponent, FooterComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

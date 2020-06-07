@@ -1,0 +1,27 @@
+<header class="flex-container mat-elevation-z8">
+  <a class="padded-left" routerLink="/" title="welcome">
+    <span class="logo">Chara</span>'s webspace
+    <!-- <img src="" alt="Chara Lagou logo" /> -->
+  </a>
+  <nav class="padded-right" aria-label="primary">
+    <button
+      fxHide.gt-md
+      mat-icon-button
+      [matMenuTriggerFor]="menu"
+      aria-label="menu button"
+    >
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu fxHide.gt-md #menu="matMenu">
+      <button *ngFor="let pageSection of pageSections" routerLink="{{ pageSection.link }}" routerLinkActive="active" mat-menu-item>
+        {{ pageSection.name }}
+      </button>
+    </mat-menu>
+
+    <ul fxHide fxShow.gt-md>
+      <li *ngFor="let pageSection of pageSections">
+        <a routerLink="{{ pageSection.link }}" routerLinkActive="active">{{ pageSection.name }}</a>
+      </li>
+    </ul>
+  </nav>
+</header>

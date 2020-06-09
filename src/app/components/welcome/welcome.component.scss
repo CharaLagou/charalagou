@@ -1,54 +1,5 @@
 @import "../../../styles.scss";
 
-main.flex-container {
-  justify-content: space-between;
-  align-items: center;
-}
-
-main > article {
-  text-align: center;
-}
-
-.shadowed {
-  text-shadow: 0px 1px 0px map-get($map: $ng-app-primary, $key: 300),
-    1px 0px 0px map-get($map: $ng-app-primary, $key: default),
-    1px 2px 1px map-get($map: $ng-app-primary, $key: 300),
-    2px 1px 1px map-get($map: $ng-app-primary, $key: default),
-    2px 3px 2px map-get($map: $ng-app-primary, $key: 300),
-    3px 2px 2px map-get($map: $ng-app-primary, $key: default),
-    3px 4px 2px map-get($map: $ng-app-primary, $key: 300),
-    4px 3px 3px map-get($map: $ng-app-primary, $key: default),
-    4px 5px 3px map-get($map: $ng-app-primary, $key: 300),
-    5px 4px 3px map-get($map: $ng-app-primary, $key: default),
-    5px 6px 3px map-get($map: $ng-app-primary, $key: 300),
-    6px 5px 2px map-get($map: $ng-app-primary, $key: default),
-    6px 7px 2px map-get($map: $ng-app-primary, $key: 300),
-    7px 6px 1px map-get($map: $ng-app-primary, $key: default),
-    7px 8px 1px map-get($map: $ng-app-primary, $key: 300),
-    8px 7px 0px map-get($map: $ng-app-primary, $key: default),
-    8px 9px 0px map-get($map: $ng-app-primary, $key: 300);
-}
-
 .x3 {
-  font-size: 3em;
   color: map-get($map: $ng-app-accent, $key: default);
-}
-
-.game {
-  font-family: "Press Start 2P", cursive;
-}
-
-.blink {
-  animation: blinking 750ms 10;
-  
-}
-
-@keyframes blinking {
-  from {
-    opacity: 1;
-    color: map-get($map: $ng-app-primary, $key: default);
-  }
-  to {
-    opacity: 0;
-  }
 }

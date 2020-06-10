@@ -1,0 +1,10 @@
+@import "../../../styles.scss";
+
+.x3 {
+  color: map-get($map: $ng-app-accent, $key: default);
+}
+
+.narrow {
+  margin-left: 30%;
+  width: 40%;
+}

@@ -1,4 +1,4 @@
-# Charalagou.github.io
+# Charalagou
 
 This is my personal webspace.
 

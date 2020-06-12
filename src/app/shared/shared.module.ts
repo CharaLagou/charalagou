@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
-import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule, Router } from '@angular/router';
 
@@ -14,7 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
-  declarations: [HeaderComponent, MainComponent, FooterComponent],
+  declarations: [HeaderComponent, FooterComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -26,6 +25,6 @@ import { MatCardModule } from '@angular/material/card';
     MatMenuModule,
     MatButtonModule,
   ],
-  exports: [HeaderComponent, MainComponent, FooterComponent],
+  exports: [HeaderComponent, FooterComponent],
 })
 export class SharedModule {}

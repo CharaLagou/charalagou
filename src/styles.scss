@@ -238,7 +238,7 @@ main > article {
 }
 
 .shadowed {
-  font-family: 'Ranchers', cursive;
+  font-family: "Ranchers", cursive;
   text-shadow: 0px 1px 0px map-get($map: $ng-app-primary, $key: 300),
     1px 0px 0px map-get($map: $ng-app-primary, $key: default),
     1px 2px 1px map-get($map: $ng-app-primary, $key: 300),
@@ -280,7 +280,6 @@ main > article {
 
 .blink {
   animation: blinking 750ms 10;
-  
 }
 
 @keyframes blinking {
@@ -301,7 +300,7 @@ main > article {
 @media screen and (max-width: 599px) {
   .narrow {
     margin-left: 5%;
-    width: 90%
+    width: 90%;
   }
 }
 

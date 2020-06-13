@@ -17,7 +17,7 @@ div.flex-container {
 } */
 
 @media screen and (max-width: 599px) {
-  div.flex-container>div {
+  div.flex-container > div {
     flex: 0 0 90%;
     margin: 5% 0%;
     min-width: 40%;
@@ -25,7 +25,7 @@ div.flex-container {
 }
 
 @media screen and (min-width: 600px) and (max-width: 959px) {
-  div.flex-container>div {
+  div.flex-container > div {
     flex: 0 0 60%;
     margin: 7%;
     min-width: 30%;
@@ -33,7 +33,7 @@ div.flex-container {
 }
 
 @media screen and (min-width: 960px) and (max-width: 1279px) {
-  div.flex-container>div {
+  div.flex-container > div {
     flex: 0 0 37%;
     margin: 5%;
     min-width: 20%;
@@ -41,7 +41,7 @@ div.flex-container {
 }
 
 @media screen and (min-width: 1280px) {
-  div.flex-container>div {
+  div.flex-container > div {
     flex: 0 0 25%;
     margin: 2%;
     min-width: 10%;

@@ -4,11 +4,6 @@
   color: map-get($map: $ng-app-accent, $key: default);
 }
 
-.narrow {
-  margin-left: 30%;
-  width: 40%;
-}
-
 #pronouncer:hover, #pronouncer:active {
   color: map-get($map: $ng-app-primary, $key: default);
 }

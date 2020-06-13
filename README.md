@@ -1,6 +1,6 @@
 # Charalagou
 
-This is my personal webspace.
+This is the repository of my personal webspace.
 
 ## Requirements
 [node.js](http://nodejs.org) is required.
@@ -11,7 +11,7 @@ Install dependencies with
 $ npm install
 ```
 
-## Run Application and start development Server
+## Run Application
 Run app from root folder with
 ```SH
 $ npm start

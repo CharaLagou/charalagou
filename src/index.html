@@ -13,7 +13,10 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "UA-169336799-1");
+      // Enable enhanced link attribution
+      gtag("config", "GA_MEASUREMENT_ID", {
+        link_attribution: true,
+      });
     </script>
 
     <meta charset="utf-8" />
